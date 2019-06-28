@@ -2,28 +2,32 @@
   "name": "sb-makefile-gen",
   "main": "./lib/sb-makefile-gen",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
+  "description": "Makefile generator for switchbrew",
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "sb-makefile-gen:toggle"
   },
-  "repository": "https://github.com/atom/sb-makefile-gen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/sb-makefile-gen.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "providedServices": {
-    "builder": {
-      "description": "Generate makefile for switchbrew project",
-      "versions": {
-        "1.0.0": "provideMakefile"
-      }
-    }
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/atom/sb-makefile-gen/issues"
+  },
+  "homepage": "https://github.com/atom/sb-makefile-gen#readme",
+  "directories": {
+    "lib": "lib"
   },
   "devDependencies": {
     "eslint": "^5.2.0"
   },
-  "dependencies": {
-  }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Topru"
 }
