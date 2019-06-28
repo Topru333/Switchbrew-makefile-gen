@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "sb-makefile-gen",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "sb-makefile-gen:toggle"
+            },
+            {
+              "label": "Generate json",
+              "command": "sb-makefile-gen:generate_json"
+            },
+            {
+              "label": "Generate makefile",
+              "command": "sb-makefile-gen:generate_makefile"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "sb-makefile-gen",
+  "main": "./lib/sb-makefile-gen",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "sb-makefile-gen:toggle"
+  },
+  "repository": "https://github.com/atom/sb-makefile-gen",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Generate makefile for switchbrew project",
+      "versions": {
+        "1.0.0": "provideMakefile"
+      }
+    }
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0"
+  },
+  "dependencies": {
+  }
+}
