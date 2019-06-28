@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atom/sb-makefile-gen.git"
+    "url": "git+https://github.com/Topru333/Switchbrew-makefile-gen.git"
   },
   "license": "MIT",
   "engines": {
@@ -17,9 +17,9 @@
   },
   "dependencies": {},
   "bugs": {
-    "url": "https://github.com/atom/sb-makefile-gen/issues"
+    "url": "https://github.com/Topru333/Switchbrew-makefile-gen/issues"
   },
-  "homepage": "https://github.com/atom/sb-makefile-gen#readme",
+  "homepage": "https://github.com/Topru333/Switchbrew-makefile-gen#readme",
   "directories": {
     "lib": "lib"
   },
