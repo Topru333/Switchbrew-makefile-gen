@@ -15,7 +15,9 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jsonfile": "^5.0.0"
+  },
   "bugs": {
     "url": "https://github.com/Topru333/Switchbrew-makefile-gen/issues"
   },

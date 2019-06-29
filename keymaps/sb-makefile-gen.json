@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
+    "ctrl-alt-o": "sb-makefile-gen:toggle",
     "ctrl-alt-j": "sb-makefile-gen:generate_json",
     "ctrl-alt-m": "sb-makefile-gen:generate_makefile"
   }
