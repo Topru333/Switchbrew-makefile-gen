@@ -1,4 +1,5 @@
 {
+  "devkitpro" : "",
   "properties" : {
     "target"   : "target",
     "build"    : "build",
