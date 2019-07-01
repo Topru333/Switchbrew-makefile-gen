@@ -19,7 +19,7 @@
     "cxx"   : "",
     "as"    : "",
     "ld"    : "",
-    "libs"  : "-lSwurl -lcurl"
+    "libs"  : " -lSwurl -lcurl -lz -lmbedtls -lmbedx509 -lmbedcrypto "
   },
   "libdirs" : ""
 }
